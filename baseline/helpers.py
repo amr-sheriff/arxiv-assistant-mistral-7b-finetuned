@@ -1,3 +1,18 @@
+"""
+Author: Amr Sherif
+Version: 1.0.0
+Date: 2024-09-20
+Description: This script provides helper classes and functions for interacting with the Together API, including chat
+             and completion functionalities. It includes CSS styling for Jupyter notebook outputs.
+
+Project: Arxiv Assistant
+Dependencies: requests, IPython
+License: MIT License
+
+Change Log:
+    - Version 1.0.0: Initial version with Chatbot and Completion classes, and a function to set notebook CSS.
+"""
+
 import requests
 from IPython.display import HTML, display
 
