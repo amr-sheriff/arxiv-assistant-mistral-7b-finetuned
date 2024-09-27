@@ -45,5 +45,7 @@ wandb/
 *.pkl
 *.bin
 
+# Project specific files
 checkpoint.json
 temp/
+synthetic_finetuning_data.jsonl
