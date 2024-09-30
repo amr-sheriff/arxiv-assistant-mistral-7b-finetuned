@@ -1,4 +1,18 @@
-# -*- coding: utf-8 -*-
+"""
+Author: Amr Sherif
+Version: 1.0.0
+Date: 2024-06-13
+Description: This script implements LoRA (Low-Rank Adaptation) fine-tuning for the Mistral-7B-Instruct model
+             to create an arXiv assistant. It handles data loading, model preparation, training configuration,
+             and the fine-tuning process using the Hugging Face Transformers library and PEFT.
+
+Project: arXiv Assistant
+Dependencies: transformers, peft, bitsandbytes, datasets, torch, wandb, trl
+License: MIT License
+
+Change Log:
+    - Version 1.0.0: Initial version with LoRA fine-tuning setup, training configuration, and evaluation metrics.
+"""
 
 from huggingface_hub import notebook_login, login
 # from google.colab import userdata
