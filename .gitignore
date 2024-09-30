@@ -47,5 +47,8 @@ wandb/
 
 # Project specific files
 checkpoint.json
+eval_results.jsonl
+test-data-predictions-ref.jsonl
 temp/
 synthetic_finetuning_data.jsonl
+models/
