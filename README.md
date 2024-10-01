@@ -1,6 +1,4 @@
-# arXiv Assistant: Mistral-7B Fine-tuned for Scientific Paper Retrieval & Analysis
-
-## Project Overview
+## arXiv Assistant: Mistral-7B Fine-tuned for Scientific Paper Retrieval & Analysis
 
 This project showcases the development of an advanced language model based on Mistral-7B, fine-tuned specifically for analyzing and interacting with scientific papers from the arXiv repository.
 It serves as a comprehensive demonstration of how to build and fine-tune a powerful yet efficient model for a domain-specific downstream task, leveraging both domain-specific data and synthetically generated datasets.  
